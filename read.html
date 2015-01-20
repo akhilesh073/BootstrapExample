@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Ex</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Tech Site</a>
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#">Blog</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Google+</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">About</a>
+                    </li>
+                    <li><a href="#contact" data-toggle="modal">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-9">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="page-header">
+                        <h3>
+                            What you want!
+                            <small>Posted on 6nov</small>
+                        </h3>
+                    </div>
+                    <img class="featuredImg" src="img/test.jpg">
+                    <p>This is a long long text.This is a long long text.This is a long long text.This is a long long text.This is a long long text.This is a long long text.This is a long long text</p>
+                    <h4>Test heading</h4>
+                    <p>Test model to submit your data. Check it out. Its awesome.Test model to submit your data. Check it out. Its awesome.Test model to submit your data. Check it out. Its awesome.Test model to submit your data. Check it out. Its awesome.</p>
+                    <h4>Test heading</h4>
+                    <p>Test model to submit your data. Check it out. Its awesome.Test model to submit your data. Check it out. Its awesome.Test model to submit your data. Check it out. Its awesome.Test model to submit your data. Check it out. Its awesome.</p>
+                    <h4>Test heading</h4>
+                    <p>Test model to submit your data. Check it out. Its awesome.Test model to submit your data. Check it out. Its awesome.Test model to submit your data. Check it out. Its awesome.Test model to submit your data. Check it out. Its awesome.</p>
+                    
+                </div>
+            </div>
+        </div>
+		<div class="col-lg-3">
+			<div class="list-group">
+				<a href="#" class="list-group-item active">
+					<h4 class="list-group-item-heading">Lorem Ipsum</h4>
+					<p class="list-group-item-text">This is a sidebar element which will be seen in short span view.</p>
+				</a>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">Lorem Ipsum</h4>
+					<p class="list-group-item-text">This is a sidebar element which will be seen in short span view.</p>
+				</a>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">Lorem Ipsum</h4>
+					<p class="list-group-item-text">This is a sidebar element which will be seen in short span view.</p>
+				</a>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">Lorem Ipsum</h4>
+					<p class="list-group-item-text">This is a sidebar element which will be seen in short span view.</p>
+				</a>
+			</div>
+		</div>
+    </div>
+</div>
+
+
+
+
+<div class="container">
+    <div class="navbar navbar-default navbar-fixed-bottom">
+    
+        <p class="navbar-text pull-left">Site Built by amohapat</p>
+        <a href="https://www.youtube.com/channel/UCcit3lVd5yNeEk2LMp0cvwg" class="navbar-btn btn-danger btn pull-right">Subscribe on YouTube</a>
+    </div>
+</div>
+<div class="modal fade" id="contact" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <form class="form-horizontal">
+			
+			<div class="modal-header">
+            <h4>Content Tech Site</h4>
+        </div>
+        <div class="modal-body">
+            <div class="form-group">
+			<label for="contact-name" class="col-lg-2 control-label">Name</label> 
+				<div class="col-lg-9">
+			<input class="form-control" type="text" id="contact-name" placeholder="Full Name">
+				
+			</div>
+			</div>
+			
+			<div class="form-group">
+			<label for="contact-email" class="col-lg-2 control-label">Email</label> 
+				<div class="col-lg-9">
+			<input class="form-control" type="text" id="contact-email" placeholder="you@example.com">
+				
+			</div>
+			</div>
+			
+			<div class="form-group">
+			<label for="contact-msg" class="col-lg-2 control-label">Message:</label> 
+				<div class="col-lg-9">
+			<textarea class="form-control" rows="7"></textarea>
+				
+			</div>
+			</div>
+			
+			
+			
+        </div>
+        <div class="modal-footer">
+            <a class="btn btn-danger pull-left" data-dismiss="modal">Close</a>
+            <button class="btn btn-primary " type="submit">Send Message</button>
+        </div>	
+		
+		</form>
+    </div>
+    </div>
+</div>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
